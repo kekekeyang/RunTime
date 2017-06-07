@@ -16,7 +16,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
+    UIButton *button = [[UIButton alloc]initWithFrame:CGRectMake(100, 100, 50, 30)];
+    [self.view addSubview:button];
+    button.backgroundColor = [UIColor greenColor];
+    [button addTarget:self action:@selector(tap) forControlEvents:UIControlEventTouchUpInside];
+}
+
+- (void)tap{
+    NSLog(@"tap");
 }
 
 - (void)didReceiveMemoryWarning {

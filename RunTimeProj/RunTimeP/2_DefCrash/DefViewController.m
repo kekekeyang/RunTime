@@ -16,7 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    NSMutableArray *muarr = [[NSMutableArray alloc]init];
+    NSString *str = nil;
+    [muarr addObject:str];
 }
 
 - (void)didReceiveMemoryWarning {

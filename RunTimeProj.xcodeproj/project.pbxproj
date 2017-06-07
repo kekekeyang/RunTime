@@ -15,6 +15,15 @@
 		04D565281EE7CF40003D210E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D565261EE7CF40003D210E /* LaunchScreen.storyboard */; };
 		04D565331EE7CF40003D210E /* RunTimeProjTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D565321EE7CF40003D210E /* RunTimeProjTests.m */; };
 		04D5653E1EE7CF40003D210E /* RunTimeProjUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D5653D1EE7CF40003D210E /* RunTimeProjUITests.m */; };
+		04D5656F1EE7E34E003D210E /* NSMutableArray+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D5656E1EE7E34E003D210E /* NSMutableArray+Swizzling.m */; };
+		04D565771EE7E375003D210E /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D565721EE7E375003D210E /* NSObject+Swizzling.m */; };
+		04D565781EE7E375003D210E /* ReplaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D565741EE7E375003D210E /* ReplaceViewController.m */; };
+		04D565791EE7E375003D210E /* UIViewController+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D565761EE7E375003D210E /* UIViewController+Swizzling.m */; };
+		04D5657C1EE7E5C8003D210E /* DefViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D5657B1EE7E5C7003D210E /* DefViewController.m */; };
+		04D565801EE7E6D3003D210E /* UIButton+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D5657F1EE7E6D3003D210E /* UIButton+Swizzling.m */; };
+		04D565831EE7F987003D210E /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D565821EE7F987003D210E /* ButtonViewController.m */; };
+		04D565871EE7FD28003D210E /* UILabel+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D565861EE7FD28003D210E /* UILabel+Swizzling.m */; };
+		04D5658B1EE8024D003D210E /* UINavigationItem+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D5658A1EE8024D003D210E /* UINavigationItem+Swizzling.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,24 @@
 		04D565391EE7CF40003D210E /* RunTimeProjUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunTimeProjUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D5653D1EE7CF40003D210E /* RunTimeProjUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunTimeProjUITests.m; sourceTree = "<group>"; };
 		04D5653F1EE7CF40003D210E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D5656D1EE7E34E003D210E /* NSMutableArray+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Swizzling.h"; sourceTree = "<group>"; };
+		04D5656E1EE7E34E003D210E /* NSMutableArray+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Swizzling.m"; sourceTree = "<group>"; };
+		04D565711EE7E375003D210E /* NSObject+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzling.h"; sourceTree = "<group>"; };
+		04D565721EE7E375003D210E /* NSObject+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzling.m"; sourceTree = "<group>"; };
+		04D565731EE7E375003D210E /* ReplaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplaceViewController.h; sourceTree = "<group>"; };
+		04D565741EE7E375003D210E /* ReplaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceViewController.m; sourceTree = "<group>"; };
+		04D565751EE7E375003D210E /* UIViewController+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizzling.h"; sourceTree = "<group>"; };
+		04D565761EE7E375003D210E /* UIViewController+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizzling.m"; sourceTree = "<group>"; };
+		04D5657A1EE7E5C7003D210E /* DefViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefViewController.h; sourceTree = "<group>"; };
+		04D5657B1EE7E5C7003D210E /* DefViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefViewController.m; sourceTree = "<group>"; };
+		04D5657E1EE7E6D3003D210E /* UIButton+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Swizzling.h"; sourceTree = "<group>"; };
+		04D5657F1EE7E6D3003D210E /* UIButton+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Swizzling.m"; sourceTree = "<group>"; };
+		04D565811EE7F987003D210E /* ButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonViewController.h; sourceTree = "<group>"; };
+		04D565821EE7F987003D210E /* ButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
+		04D565851EE7FD28003D210E /* UILabel+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Swizzling.h"; sourceTree = "<group>"; };
+		04D565861EE7FD28003D210E /* UILabel+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Swizzling.m"; sourceTree = "<group>"; };
+		04D565891EE8024D003D210E /* UINavigationItem+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+Swizzling.h"; sourceTree = "<group>"; };
+		04D5658A1EE8024D003D210E /* UINavigationItem+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+Swizzling.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +128,7 @@
 		04D565171EE7CF40003D210E /* RunTimeProj */ = {
 			isa = PBXGroup;
 			children = (
+				04D5654B1EE7D154003D210E /* RunTimeP */,
 				04D5651B1EE7CF40003D210E /* AppDelegate.h */,
 				04D5651C1EE7CF40003D210E /* AppDelegate.m */,
 				04D5651E1EE7CF40003D210E /* ViewController.h */,
@@ -138,6 +166,71 @@
 				04D5653F1EE7CF40003D210E /* Info.plist */,
 			);
 			path = RunTimeProjUITests;
+			sourceTree = "<group>";
+		};
+		04D5654B1EE7D154003D210E /* RunTimeP */ = {
+			isa = PBXGroup;
+			children = (
+				04D565881EE80233003D210E /* 5_NavItem */,
+				04D565841EE7FD15003D210E /* 4_Label */,
+				04D5657D1EE7E6C0003D210E /* 3_Button */,
+				04D565701EE7E375003D210E /* 1_Method Swizzling */,
+				04D5656C1EE7E320003D210E /* 2_DefCrash */,
+			);
+			path = RunTimeP;
+			sourceTree = "<group>";
+		};
+		04D5656C1EE7E320003D210E /* 2_DefCrash */ = {
+			isa = PBXGroup;
+			children = (
+				04D5656D1EE7E34E003D210E /* NSMutableArray+Swizzling.h */,
+				04D5656E1EE7E34E003D210E /* NSMutableArray+Swizzling.m */,
+				04D5657A1EE7E5C7003D210E /* DefViewController.h */,
+				04D5657B1EE7E5C7003D210E /* DefViewController.m */,
+			);
+			path = 2_DefCrash;
+			sourceTree = "<group>";
+		};
+		04D565701EE7E375003D210E /* 1_Method Swizzling */ = {
+			isa = PBXGroup;
+			children = (
+				04D565711EE7E375003D210E /* NSObject+Swizzling.h */,
+				04D565721EE7E375003D210E /* NSObject+Swizzling.m */,
+				04D565731EE7E375003D210E /* ReplaceViewController.h */,
+				04D565741EE7E375003D210E /* ReplaceViewController.m */,
+				04D565751EE7E375003D210E /* UIViewController+Swizzling.h */,
+				04D565761EE7E375003D210E /* UIViewController+Swizzling.m */,
+			);
+			path = "1_Method Swizzling";
+			sourceTree = "<group>";
+		};
+		04D5657D1EE7E6C0003D210E /* 3_Button */ = {
+			isa = PBXGroup;
+			children = (
+				04D5657E1EE7E6D3003D210E /* UIButton+Swizzling.h */,
+				04D5657F1EE7E6D3003D210E /* UIButton+Swizzling.m */,
+				04D565811EE7F987003D210E /* ButtonViewController.h */,
+				04D565821EE7F987003D210E /* ButtonViewController.m */,
+			);
+			path = 3_Button;
+			sourceTree = "<group>";
+		};
+		04D565841EE7FD15003D210E /* 4_Label */ = {
+			isa = PBXGroup;
+			children = (
+				04D565851EE7FD28003D210E /* UILabel+Swizzling.h */,
+				04D565861EE7FD28003D210E /* UILabel+Swizzling.m */,
+			);
+			path = 4_Label;
+			sourceTree = "<group>";
+		};
+		04D565881EE80233003D210E /* 5_NavItem */ = {
+			isa = PBXGroup;
+			children = (
+				04D565891EE8024D003D210E /* UINavigationItem+Swizzling.h */,
+				04D5658A1EE8024D003D210E /* UINavigationItem+Swizzling.m */,
+			);
+			path = 5_NavItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,8 +366,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D565871EE7FD28003D210E /* UILabel+Swizzling.m in Sources */,
+				04D5656F1EE7E34E003D210E /* NSMutableArray+Swizzling.m in Sources */,
 				04D565201EE7CF40003D210E /* ViewController.m in Sources */,
+				04D565781EE7E375003D210E /* ReplaceViewController.m in Sources */,
+				04D5658B1EE8024D003D210E /* UINavigationItem+Swizzling.m in Sources */,
+				04D565771EE7E375003D210E /* NSObject+Swizzling.m in Sources */,
+				04D5657C1EE7E5C8003D210E /* DefViewController.m in Sources */,
+				04D565801EE7E6D3003D210E /* UIButton+Swizzling.m in Sources */,
 				04D5651D1EE7CF40003D210E /* AppDelegate.m in Sources */,
+				04D565791EE7E375003D210E /* UIViewController+Swizzling.m in Sources */,
+				04D565831EE7F987003D210E /* ButtonViewController.m in Sources */,
 				04D5651A1EE7CF40003D210E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
